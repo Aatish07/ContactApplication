@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ContactApplication</display-name>
+  <servlet>
+    <servlet-name>UserController</servlet-name>
+    <servlet-class>com.yash.CMA.controller.UserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserController</servlet-name>
+    <url-pattern>/UserController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RegistrationController</servlet-name>
+    <servlet-class>com.yash.CMA.controller.RegistrationController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrationController</servlet-name>
+    <url-pattern>/RegistrationController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SearchUserController</servlet-name>
+    <servlet-class>com.yash.CMA.controller.SearchUserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchUserController</servlet-name>
+    <url-pattern>/SearchUserController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DeleteUserController</servlet-name>
+    <servlet-class>com.yash.CMA.controller.DeleteUserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteUserController</servlet-name>
+    <url-pattern>/DeleteUserController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LogoutController</servlet-name>
+    <servlet-class>com.yash.CMA.controller.LogoutController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutController</servlet-name>
+    <url-pattern>/LogoutController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ContactController</display-name>
+    <servlet-name>ContactController</servlet-name>
+    <servlet-class>com.yash.CMA.controller.ContactController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContactController</servlet-name>
+    <url-pattern>/ContactController</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
